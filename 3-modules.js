@@ -1,0 +1,7 @@
+const names= require('./4-names')
+const func =require('./5-utils')
+const data=require('./4-1-names')
+console.log(data)
+func(data.naam.name)
+func(names.john)
+func(names.peter)
